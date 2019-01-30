@@ -53,7 +53,7 @@ services:
       - proxy-tier
 
   letsencrypt-companion:
-    image: jrcs/letsencrypt-nginx-proxy-companion
+    image: alexanderkrause/rpi-letsencrypt-nginx-proxy-companion
     restart: always
     volumes:
       - certs:/etc/nginx/certs
